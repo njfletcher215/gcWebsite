@@ -6,12 +6,12 @@ if ( $_POST['payload'] ) {
     try { 
         $output = null;
         $result_code = null;
-        $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite \
-        && git fetch \
-        && git reset --hard origin/master \
-        && git pull \
-        && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp \
-        && npm run build', $output, $result_code );
+        $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite 2>&1 \
+        && git fetch 2>&1 \
+        && git reset --hard origin/master 2>&1 \
+        && git pull 2>&1 \
+        && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp 2>&1 \
+        && npm run build 2>&1', $output, $result_code );
         echo 'result_code: ', $result_code, "\n";
         print_r($output);
         if ($response == false) {
