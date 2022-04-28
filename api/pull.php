@@ -11,7 +11,7 @@ if ( $_POST['payload'] ) {
         && git reset --hard origin/master 2>&1 \
         && git pull 2>&1 \
         && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp 2>&1 \
-        && npm run build 2>&1', $output, $result_code );
+        && npm run build --unsafe-perm 2>&1', $output, $result_code );
         echo 'result_code: ', $result_code, "\n";
         print_r($output);
         if ($result_code != 0) {
