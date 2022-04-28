@@ -9,6 +9,8 @@ function Home() {
         </p>
         <p>
             Hope you have a good time!
+            Thanks,
+            Nathan
         </p>
       </header>
     </div>
