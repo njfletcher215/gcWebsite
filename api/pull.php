@@ -7,6 +7,7 @@ if ( $_POST['payload'] ) {
         $output = null;
         $result_code = null;
         $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite \
+        && git fetch \
         && git reset --hard origin/master \
         && git pull \
         && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp \
