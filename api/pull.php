@@ -4,7 +4,11 @@
 
 if ( $_POST['payload'] ) {
     try { 
-        $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite 2>&1 && git reset --hard origin/master 2>&1 && git pull 2>&1' );
+        $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite \
+        && git reset --hard origin/master \
+        && git pull \
+        && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp \
+        && npm run build' );
         http_response_code(200);
         if ($response == 0) {
             http_response_code(500);
