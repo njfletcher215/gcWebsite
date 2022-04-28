@@ -11,12 +11,13 @@ if ( $_POST['payload'] ) {
         && git pull \
         && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp \
         && npm run build', $output, $result_code );
-        http_response_code(200);
         if ($response == false) {
-            echo 'result_code: ', $result_code, "\n";
-            print_r($output);
             http_response_code(500);
+        } else {
+            http_response_code(200);
         }
+        echo 'result_code: ', $result_code, "\n";
+        print_r($output);
     } catch (Exception $e) {
         echo 'Caught exception: ',  $e->getMessage(), "\n";
         http_response_code(500);
