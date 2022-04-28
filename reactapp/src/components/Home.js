@@ -8,7 +8,7 @@ function Home() {
             Hello! -- Welcome to my homepage!
         </p>
         <p>
-            Thanks,
+            See you later!
             Nathan
         </p>
       </header>
