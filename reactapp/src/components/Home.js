@@ -5,7 +5,7 @@ function Home() {
     <div className="Home">
       <header className="Greeting">
         <p>
-          Hello!
+          Hello! -- Welcome to my homepage!
         </p>
       </header>
     </div>
