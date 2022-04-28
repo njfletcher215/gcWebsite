@@ -8,10 +8,13 @@ if ( $_POST['payload'] ) {
         && git reset --hard origin/master \
         && git pull \
         && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp \
-        && npm run build' );
+        && npm run build', $output, $result_code );
         http_response_code(200);
-        if ($response == 0) {
-            echo 'response: ', $response, "\n";
+        if ($response == false) {
+            echo 'result_code: ', $result_code, "\n";
+            for (int $i = 0; $i < count($output); $i++) {
+                echo $output[$i];
+            }
             http_response_code(500);
         }
     } catch (Exception $e) {
