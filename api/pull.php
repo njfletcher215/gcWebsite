@@ -11,6 +11,7 @@ if ( $_POST['payload'] ) {
         && npm run build' );
         http_response_code(200);
         if ($response == 0) {
+            echo 'response: ', $response
             http_response_code(500);
         }
     } catch (Exception $e) {
