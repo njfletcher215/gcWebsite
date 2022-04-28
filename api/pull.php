@@ -12,7 +12,7 @@ if ( $_POST['payload'] ) {
         && git pull 2>&1 \
         && cd /home/njfletcher215_gmail_com/gcWebsite/reactapp 2>&1 \
         && echo hello \
-        && npx -v 2>&1', $output, $result_code );
+        && npm -v 2>&1', $output, $result_code );
         // npm run build 2>&1
         echo 'result_code: ', $result_code, "\n";
         print_r($output);
