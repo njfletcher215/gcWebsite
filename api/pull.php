@@ -4,6 +4,8 @@
 
 if ( $_POST['payload'] ) {
     try { 
+        $output = array();
+        $result_code = 0;
         $response = exec( 'cd /home/njfletcher215_gmail_com/gcWebsite \
         && git reset --hard origin/master \
         && git pull \
@@ -13,7 +15,7 @@ if ( $_POST['payload'] ) {
         if ($response == false) {
             echo 'result_code: ', $result_code, "\n";
             for (int $i = 0; $i < count($output); $i++) {
-                echo $output[$i];
+                echo $output[$i], "\n";
             }
             http_response_code(500);
         }
