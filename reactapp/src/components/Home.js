@@ -8,7 +8,6 @@ function Home() {
             Hello! -- Welcome to my homepage!
         </p>
         <p>
-            Hope you have a good time!
             Thanks,
             Nathan
         </p>
