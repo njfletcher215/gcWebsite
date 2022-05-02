@@ -6,6 +6,7 @@ import LogosAndWeb from "./components/pages/LogosAndWeb";
 import PageNotFound from "./components/pages/PageNotFound";
 import Posters from "./components/pages/Posters";
 import Resume from "./components/pages/Resume";
+import Nav from "./components/pages/Nav";
 import './App.css';
 
 function App() {
