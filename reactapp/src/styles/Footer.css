@@ -1,0 +1,30 @@
+.footer {
+    box-sizing: border-box;
+    width: 100vw;
+    height: fit-content;
+    padding: 0 10vw;
+    display: flex;
+}
+
+.footer_item {
+    height: fit-content;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_box span {
+    margin-right: auto;
+}
+
+.back_to_top span {
+    margin-left: auto;
+}
+
+p {
+    font-size: 10pt;
+}
+
+.page_name_content {
+    font-size: 14pt;
+}

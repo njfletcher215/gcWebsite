@@ -4,27 +4,38 @@ import '../../styles/Nav.css';
 export default function Nav() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Nathan Fletcher</Link>
-          </li>
-          <li>
-            <Link to="/Resume">Resume</Link>
-          </li>
-          <li>
-            <Link to="/AboutMe">About Me</Link>
-          </li>
-          <li>
-            <Link to="/BookletsAndMagazines">Booklets and Magazines</Link>
-          </li>
-          <li>
-            <Link to="/LogosAndWeb">Logos and Web</Link>
-          </li>
-          <li>
-            <Link to="/Posters">Posters</Link>
-          </li>
-        </ul>
+      <nav className="header">
+        <Link to="/">
+          <p className="link_item home_text">
+            <img className="logo" src="/NF_logo_white_50x55@72.png" />
+            <strong>Nathan Fletcher</strong>
+          </p>
+        </Link>
+        <Link to="/Resume">
+          <p className="link_item">
+            Resume
+          </p>
+        </Link>
+        <Link to="/AboutMe">
+          <p className="link_item">
+            About Me
+          </p>
+        </Link>
+        <Link to="/BookletsAndMagazines">
+          <p className="link_item">
+            Booklets and Magazines
+          </p>
+        </Link>
+        <Link to="/LogosAndWeb">
+          <p className="link_item">
+            Logos and Web
+          </p>
+        </Link>
+        <Link to="/Posters">
+          <p className="link_item">
+            Posters
+          </p>
+        </Link>
       </nav>
 
       <Outlet />
