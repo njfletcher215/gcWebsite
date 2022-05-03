@@ -7,7 +7,7 @@ export default function Home() {
       <p>
         Home
       </p>
-      <Image link="https://www.google.com" source='/logo192.png'/>
+      <Image link="/AboutMe" source='/logo192.png'/>
     </div>
   );
 }

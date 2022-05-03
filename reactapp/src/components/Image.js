@@ -1,11 +1,12 @@
 import '../styles/Image.css';
+import { Link } from 'react-router-dom';
 
 export default function Footer(props) {
   return (
     <div className="Image">
-      <a href={props.link}>
+      <Link to={props.link}>
         <img src={props.source} />
-      </a>
+      </Link>
     </div>
   );
 }
