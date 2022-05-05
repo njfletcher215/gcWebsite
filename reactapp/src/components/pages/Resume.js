@@ -4,7 +4,10 @@ export default function Resume(props) {
   return (
     <div className={`resume ${props.className || ''}`}>
       <p>
-        Resume
+        PDF holder
+      </p>
+      <p>
+        <a>download</a>
       </p>
     </div>
   );

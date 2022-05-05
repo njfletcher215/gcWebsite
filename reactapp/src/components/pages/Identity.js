@@ -10,6 +10,7 @@ export default function Identity(props) {
         thirdeye<br />
         Zoo App<br />
         Demograph<br />
+        Resume<br />
       </p>
     </div>
   );
