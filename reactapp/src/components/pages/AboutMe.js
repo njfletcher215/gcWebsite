@@ -10,7 +10,8 @@ export default function AboutMe(props) {
       <div className="description">
         <p className="bio">
           <h1>About Me</h1>
-          I am a Graphic Designer currently studying at Loyola University of Chicago.<br />
+          I am a Graphic Designer and Web Developer<br />
+          currently studying at Loyola University of Chicago.<br />
           I am interested in the intersection of technology and design,<br />
           and want to explore web design. <Link to="/Resume">View my resume.</Link>
         </p>
