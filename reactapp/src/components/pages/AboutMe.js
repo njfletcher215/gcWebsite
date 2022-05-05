@@ -13,7 +13,7 @@ export default function AboutMe(props) {
           I am a Graphic Designer and Web Developer<br />
           currently studying at Loyola University of Chicago.<br />
           I am interested in the intersection of technology and design,<br />
-          and want to explore web design. <Link to="/Resume">View my resume.</Link>
+          and want to explore interactive visual experiences. <Link to="/Resume">View my resume.</Link>
         </p>
         <p className="contact-info">
           <h1>Contact Info</h1>
