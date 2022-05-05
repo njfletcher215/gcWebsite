@@ -8,6 +8,7 @@ import Posters from "./components/pages/Posters";
 import Resume from "./components/pages/Resume";
 import Nav from "./components/pages/Nav";
 import Footer from "./components/Footer";
+import AllWork from "./components/pages/AllWork";
 import './App.css';
 
 function App() {
