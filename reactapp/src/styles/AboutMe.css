@@ -1,0 +1,24 @@
+.about-me {
+    width: 100%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+}
+
+.about-me .description, .about-me .headshot {
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: left;
+}
+
+.about-me .headshot {
+    padding-top: 20px;
+}
+.about-me .description {
+    padding-left: 10px;
+}
+
+.about-me .description .contact-info h1 {
+    font-size: 10pt;
+    color: grey;
+}
