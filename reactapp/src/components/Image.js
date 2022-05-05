@@ -1,11 +1,12 @@
 import '../styles/Image.css';
 import { Link } from 'react-router-dom';
 
-export default function Footer(props) {
+export default function Image(props) {
   return (
-    <div className="Image">
-      <Link to={props.link}>
+    <div className={`image ${props.className || ''}`}>
+      <Link className="link" to={props.link}>
         <img src={props.source} />
+        <p className="hover-text">{props.hoverText}</p>
       </Link>
     </div>
   );

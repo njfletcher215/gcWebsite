@@ -2,7 +2,7 @@ import '../styles/Footer.css';
 
 export default function Footer(props) {
   return (
-    <div className="footer">
+    <div className={`footer ${props.className || ''}`}>
       <div className="footer_item contact_box">
         <span>
           <p className="contact_box_header">

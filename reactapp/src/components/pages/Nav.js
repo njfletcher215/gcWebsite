@@ -1,13 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 import '../../styles/Nav.css';
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     <>
-      <nav className="header">
+      <nav className={`nav ${props.className || ''}`}>
         <Link to="/">
           <p className="link_item home_text">
-            <img className="logo" src="/NF_logo_white_50x55@72.png" />
+            <img className="logo" src="/images/NF_logo_white_50x55@72.png" />
             <strong>Nathan Fletcher</strong>
           </p>
         </Link>

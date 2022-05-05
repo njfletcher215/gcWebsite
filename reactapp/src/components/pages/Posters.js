@@ -1,8 +1,8 @@
 import '../../styles/Posters.css';
 
-export default function Posters() {
+export default function Posters(props) {
   return (
-    <div className="Posters">
+    <div className={`posters ${props.className || ''}`}>
       <p>
         Posters
       </p>

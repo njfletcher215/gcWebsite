@@ -4,10 +4,7 @@ import Image from '../Image';
 export default function Home() {
   return (
     <div className="Home">
-      <p>
-        Home
-      </p>
-      <Image link="/AboutMe" source='/logo192.png'/>
+      <Image className="home-image" link="/AboutMe" hoverText="View Save_As Campaign" source='/work/FNAR332/SaveAsCampain/final/Mockups/Logo_Mockup_2300x1500@72.png'/>
     </div>
   );
 }

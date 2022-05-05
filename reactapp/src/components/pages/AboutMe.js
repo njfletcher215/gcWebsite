@@ -1,8 +1,8 @@
 import '../../styles/AboutMe.css';
 
-export default function AboutMe() {
+export default function AboutMe(props) {
   return (
-    <div className="AboutMe">
+    <div className={`about-me ${props.className || ''}`}>
       <p>
         About Me
       </p>

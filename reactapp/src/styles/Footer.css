@@ -2,7 +2,7 @@
     box-sizing: border-box;
     width: 100vw;
     height: fit-content;
-    padding: 0 10vw;
+    padding: 25px 10vw;
     display: flex;
 }
 

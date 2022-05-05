@@ -1,8 +1,8 @@
 import '../../styles/LogosAndWeb.css';
 
-export default function LogosAndWeb() {
+export default function LogosAndWeb(props) {
   return (
-    <div className="LogosAndWeb">
+    <div className={`logos-and-web ${props.className || ''}`}>
       <p>
         Logos and Web
       </p>
