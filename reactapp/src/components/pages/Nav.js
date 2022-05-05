@@ -21,24 +21,19 @@ export default function Nav(props) {
             About Me
           </p>
         </Link>
-        <Link to="/BookletsAndMagazines">
+        <Link to="/Print">
           <p className="link-item">
-            Booklets and Magazines
+            Print
           </p>
         </Link>
-        <Link to="/LogosAndWeb">
+        <Link to="/Digital">
           <p className="link-item">
-            Logos and Web
+            Digital
           </p>
         </Link>
-        <Link to="/Posters">
+        <Link to="/Identity">
           <p className="link-item">
-            Posters
-          </p>
-        </Link>
-        <Link to="/AllWork">
-          <p className="link-item">
-            All Work
+            Identity
           </p>
         </Link>
       </nav>
