@@ -22,6 +22,7 @@ function App() {
             <Route path="LogosAndWeb" element={<><LogosAndWeb /><Footer page_name="Logos and Web"/></>} />
             <Route path="Posters" element={<><Posters /><Footer page_name="Posters"/></>} />
             <Route path="Resume" element={<><Resume /><Footer page_name="Resume"/></>} />
+            <Route path="AllWork" element={<><AllWork /><Footer page_name="All Work" /></>} />
             <Route path="*" element={<><PageNotFound /><Footer page_name="Page Not Fount"/></>} />
           </Route>
         </Routes>

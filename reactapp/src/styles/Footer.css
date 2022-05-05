@@ -6,18 +6,18 @@
     display: flex;
 }
 
-.footer_item {
+.footer-item {
     height: fit-content;
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
-.contact_box span {
+.contact-box span {
     margin-right: auto;
 }
 
-.back_to_top span {
+.back-to-top span {
     margin-left: auto;
 }
 
@@ -25,6 +25,6 @@ p {
     font-size: 10pt;
 }
 
-.page_name_content {
+.page-name-content {
     font-size: 14pt;
 }
