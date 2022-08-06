@@ -22,10 +22,10 @@ export default function Footer(props) {
           </p>
         </span>
       </div>
-      <div className="footer-item back-to-top">
+      <div className="footer-item back-to-top-container">
         <span>
-          <p className="back-to-top-content">
-            ^ Back to Top
+          <p className="back-to-top">
+            <a id="back-to-top" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth'})}>^ Back to Top</a>
           </p>
         </span>
       </div>

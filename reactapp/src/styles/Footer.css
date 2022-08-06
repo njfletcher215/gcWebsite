@@ -17,7 +17,7 @@
     margin-right: auto;
 }
 
-.back-to-top span {
+.back-to-top-container span {
     margin-left: auto;
 }
 
@@ -27,4 +27,8 @@ p {
 
 .page-name-content {
     font-size: 14pt;
+}
+
+#back-to-top:hover {
+    text-decoration: underline;
 }

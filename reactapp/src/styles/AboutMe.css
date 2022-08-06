@@ -22,3 +22,11 @@
     font-size: 10pt;
     color: grey;
 }
+
+#view-my-resume {
+    color: black;
+}
+
+#view-my-resume:hover {
+    text-decoration: underline;
+}
