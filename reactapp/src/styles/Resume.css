@@ -1,0 +1,17 @@
+iframe {
+    width: 100vw;
+    height: 90vh;
+}
+
+#download-link-container {
+    text-align: center;
+    width: 100%;
+}
+
+#download-link {
+    color: black;
+}
+
+#download-link:hover {
+    text-decoration: underline;
+}
