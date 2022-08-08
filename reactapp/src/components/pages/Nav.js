@@ -1,5 +1,4 @@
 import { Outlet, Link } from "react-router-dom";
-import '../../styles/Nav.css';
 
 export default function Nav(props) {
   return (

@@ -1,4 +1,3 @@
-import '../../styles/Home.css';
 import Image from '../Image';
 
 export default function Home(props) {

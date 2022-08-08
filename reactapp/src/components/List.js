@@ -1,4 +1,3 @@
-import '../styles/List.css';
 import React from 'react';
 
 export default function Image(props) {

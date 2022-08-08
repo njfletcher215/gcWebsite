@@ -1,4 +1,3 @@
-import '../styles/Image.css';
 import { Link } from 'react-router-dom';
 
 export default function Image(props) {
